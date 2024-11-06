@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-image: url('bg1.jpeg');
+    background-size: cover;          
+    background-repeat: no-repeat;    
+    background-attachment: fixed;   
+    background-position: center;  
+    display: flex;                
+    flex-direction: column;       
+    align-items: center;          
+    justify-content: center; 
+    backdrop-filter: blur(8px); 
+    width: 80%;  
+    max-width: 500px;     
+    background-color: #fff;   
+    border: 2px solid #333;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;     
+    margin-top: 100px;
+    text-align: center;      
+}
+
+h1 { 
+    font-size: 40px;              
+    font-weight: bold;           
+    background-image: url('bg2.jpeg');        
+    background-position: center;
+    -webkit-background-clip: text; 
+    background-clip: text;         
+    color: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#user-list {
+    margin-top: 20px;
+}
+
+.delete-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn{
+    background-color: #45a049;
+    color: white;
+}
+
+.add-btn:hover{
+    background-color: teal;
+}
+
+.view-btn{
+    background-color: rgb(110, 110, 133);
+    color: white;
+}
+
+.view-btn:hover{
+    background-color: rgb(7, 7, 95);
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #7e2a33;
+}
